@@ -11,6 +11,9 @@
 </head>
 <body>
 {{> _header}}
+{{#if user}}
+    {{>_add-btn}}
+{{/if}}
 <main>
     <div class="container">
         {{{body}}}
