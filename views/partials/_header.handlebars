@@ -15,6 +15,15 @@
                     <li><a href="/stories"><i class="fa fa-book"></i>Public Stories</a></li>
                 {{/if}}
             </ul>
+            <!--side  menu-->
+            <ul class="side-nav" id="main-menu">
+                <li>
+                    {{#if user}}
+                    {{else}}
+                        <a href="/auth/google" class="btn red darken-1"><i class="fa fa-google left"></i>Login with Google</a>
+                    {{/if}}
+                </li>
+            </ul>
         </div>
     </div>
 </nav>
