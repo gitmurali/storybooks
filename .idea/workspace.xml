@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="33b25784-b060-4b12-83f4-8df848dd3454" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/index/dashboard.handlebars" afterPath="$PROJECT_DIR$/views/index/dashboard.handlebars" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/hbs.js" afterPath="$PROJECT_DIR$/helpers/hbs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/stories.js" afterPath="$PROJECT_DIR$/routes/stories.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/stories/edit.handlebars" afterPath="$PROJECT_DIR$/views/stories/edit.handlebars" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dashboard.handlebars" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dashboard.handlebars" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index/dashboard.handlebars">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
@@ -42,11 +43,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="add.handlebars" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/stories/add.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="18" />
+            <state relative-caret-position="238">
+              <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -55,8 +66,18 @@
       <file leaf-file-name="stories.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/stories.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+            <state relative-caret-position="334">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.handlebars" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/stories/edit.handlebars">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -85,8 +106,8 @@
       <file leaf-file-name="hbs.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/helpers/hbs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -128,7 +149,6 @@
         <option value="$PROJECT_DIR$/routes/auth.js" />
         <option value="$PROJECT_DIR$/views/index/welcome.handlebars" />
         <option value="$PROJECT_DIR$/views/partials/_header.handlebars" />
-        <option value="$PROJECT_DIR$/views/stories/edit.handlebars" />
         <option value="$PROJECT_DIR$/views/partials/_footer.handlebars" />
         <option value="$PROJECT_DIR$/views/partials/_add-btn.handlebars" />
         <option value="$PROJECT_DIR$/views/index/about.handlebars" />
@@ -137,13 +157,14 @@
         <option value="$PROJECT_DIR$/models/story.js" />
         <option value="$PROJECT_DIR$/views/stories/add.handlebars" />
         <option value="$PROJECT_DIR$/views/stories/index.handlebars" />
-        <option value="$PROJECT_DIR$/routes/stories.js" />
-        <option value="$PROJECT_DIR$/helpers/hbs.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/views/stories/show.handlebars" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/views/index/dashboard.handlebars" />
+        <option value="$PROJECT_DIR$/routes/stories.js" />
+        <option value="$PROJECT_DIR$/helpers/hbs.js" />
+        <option value="$PROJECT_DIR$/index.js" />
+        <option value="$PROJECT_DIR$/views/stories/edit.handlebars" />
       </list>
     </option>
   </component>
@@ -198,29 +219,7 @@
             <path>
               <item name="storybooks" type="b2602c69:ProjectViewProjectNode" />
               <item name="storybooks" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storybooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storybooks" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storybooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storybooks" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storybooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storybooks" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="storybooks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="storybooks" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="index" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="storybooks" type="b2602c69:ProjectViewProjectNode" />
@@ -364,12 +363,12 @@
       <workItem from="1511784152878" duration="3768000" />
       <workItem from="1511849846108" duration="792000" />
       <workItem from="1511850681488" duration="15350000" />
-      <workItem from="1511933542630" duration="12196000" />
+      <workItem from="1511933542630" duration="13722000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39389000" />
+    <option name="totallyTimeSpent" value="40915000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -632,13 +631,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/stories/edit.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/partials/_footer.handlebars">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -691,14 +683,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/stories/add.handlebars">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/models/story.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -719,30 +703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="12" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/stories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="24" lean-forward="true" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="55" column="18" lean-forward="false" selection-start-line="55" selection-start-column="8" selection-end-line="55" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/hbs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -775,6 +735,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="91" lean-forward="false" selection-start-line="22" selection-start-column="91" selection-end-line="22" selection-end-column="91" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/stories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stories/add.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/hbs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="10" lean-forward="false" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/stories/edit.handlebars">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="31" column="50" lean-forward="false" selection-start-line="31" selection-start-column="50" selection-end-line="31" selection-end-column="50" />
           <folding />
         </state>
       </provider>

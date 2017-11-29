@@ -11,7 +11,8 @@ const passport = require('passport');
 const {
     truncate,
     stripTags,
-    formatDate
+    formatDate,
+    select
 } = require('./helpers/hbs');
 
 
@@ -53,7 +54,8 @@ app.engine('handlebars', exphbs({
     helpers: {
         truncate: truncate,
         stripTags: stripTags,
-        formatDate: formatDate
+        formatDate: formatDate,
+        select: select
     },
     defaultLayout: 'main'
 }));
