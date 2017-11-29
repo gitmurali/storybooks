@@ -4,6 +4,7 @@ const exphbs = require('express-handlebars');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const methodOverride = require('method-override');
 const session = require('express-session');
 const passport = require('passport');
 
@@ -44,10 +45,13 @@ mongoose.connect(keys.mongoURI, {
 const app = express();
 
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({extended: false}))
+app.use(bodyParser.urlencoded({extended: false}));
 
 // parse application/json
-app.use(bodyParser.json())
+app.use(bodyParser.json());
+
+//method override
+app.use(methodOverride('_method'));
 
 // Handlebars Middleware
 app.engine('handlebars', exphbs({
