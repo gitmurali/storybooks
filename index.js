@@ -7,6 +7,13 @@ const bodyParser = require('body-parser');
 const session = require('express-session');
 const passport = require('passport');
 
+//handlebars helpers
+const {
+    truncate,
+    stripTags
+} = require('./helpers/hbs');
+
+
 // Load models
 require('./models/user');
 require('./models/story');
@@ -24,9 +31,10 @@ const keys = require('./config/keys');
 
 // Map global promises
 mongoose.Promise = global.Promise;
+
 // Mongoose Connect
 mongoose.connect(keys.mongoURI, {
-    useMongoClient:true
+    useMongoClient: true
 })
     .then(() => console.log('MongoDB Connected'))
     .catch(err => console.log(err));
@@ -34,14 +42,18 @@ mongoose.connect(keys.mongoURI, {
 const app = express();
 
 // parse application/x-www-form-urlencoded
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(bodyParser.urlencoded({extended: false}))
 
 // parse application/json
 app.use(bodyParser.json())
 
 // Handlebars Middleware
 app.engine('handlebars', exphbs({
-    defaultLayout:'main'
+    helpers: {
+        truncate: truncate,
+        stripTags: stripTags
+    },
+    defaultLayout: 'main'
 }));
 app.set('view engine', 'handlebars');
 
