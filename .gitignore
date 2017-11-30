@@ -6,7 +6,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # do not track dev keys
-keys_dev.js
+config/keys_dev.js
 
 # Runtime data
 pids
