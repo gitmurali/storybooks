@@ -15,7 +15,8 @@
                     {{#if user}}
                         <form action="/stories/comment/{{story.id}}" method="post">
                             <div class="input-field">
-                                <textarea name="commentBody" id="" cols="30" rows="10" class="materialize-textarea"></textarea>
+                                <textarea name="commentBody" id="" cols="30" rows="10"
+                                          class="materialize-textarea"></textarea>
                                 <label for="">Add Comment</label>
                             </div>
                             <input type="submit" value="Submit" class="btn">
@@ -25,6 +26,19 @@
                     {{/if}}
                 </div>
             </div>
+            {{#each story.comments}}
+                <div class="card">
+                    <div class="card-content">
+                        <h5>{{commentBody}}</h5>
+                        <div class="chip">
+                            <img src="{{commentUser.image}}" alt="Contact Person">
+                            {{commentUser.firstName}} {{commentUser.lastName}}
+                        </div>
+                        <br>
+                        <small>Posted: {{formatDate commentDate 'MMMM do YYYY'}}</small>
+                    </div>
+                </div>
+            {{/each}}
         {{/if}}
     </div>
     <div class="col s12 m4">
