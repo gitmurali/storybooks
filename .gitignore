@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# do not track dev keys
+keys_dev.js
+
 # Runtime data
 pids
 *.pid
