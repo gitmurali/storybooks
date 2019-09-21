@@ -23,7 +23,7 @@
     "express-handlebars": "^3.0.0",
     "express-session": "^1.15.6",
     "method-override": "^2.3.10",
-    "moment": "^2.19.2",
+    "moment": "^2.19.3",
     "mongoose": "^4.13.5",
     "passport": "^0.4.0",
     "passport-google-oauth20": "^1.0.0"
